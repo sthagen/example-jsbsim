@@ -42,7 +42,8 @@ CPMAddPackage(
         GITHUB_REPOSITORY JSBSim-Team/jsbsim
         GIT_TAG v1.1.11
         OPTIONS
-        "IMATH_CXX_STANDARD 17"
+        "BUILD_SHARED_LIBS TRUE"
+        "JSBSIM_ENABLE_PLUGINS TRUE"
 )
 
 if(jsbsim_ADDED)
