@@ -42,6 +42,8 @@ CPMAddPackage(
         GITHUB_REPOSITORY JSBSim-Team/jsbsim
         GIT_TAG v1.1.11
         OPTIONS
+        "BUILD_DOCS FALSE"
+        "BUILD_PYTHON_MODULE FALSE"
         "BUILD_SHARED_LIBS TRUE"
         "JSBSIM_ENABLE_PLUGINS TRUE"
 )
